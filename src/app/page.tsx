@@ -1,8 +1,11 @@
 import Header from '@/components/Header';
 import Hero from '@/components/Hero';
-import Calculator from '@/components/Calculator';
+import Recognition from '@/components/Recognition';
+import Problem from '@/components/Problem';
+import HowItWorks from '@/components/HowItWorks';
 import FeaturesSlider from '@/components/FeaturesSlider';
-import CaseStudy from '@/components/CaseStudy';
+import Results from '@/components/Results';
+import Press from '@/components/Press';
 import ContactCTA from '@/components/ContactCTA';
 import Footer from '@/components/Footer';
 
@@ -12,9 +15,12 @@ export default function Home() {
       <Header />
       <main>
         <Hero />
-        <Calculator />
+        <Recognition />
+        <Problem />
+        <HowItWorks />
         <FeaturesSlider />
-        <CaseStudy />
+        <Results />
+        <Press />
         <ContactCTA />
       </main>
       <Footer />
